@@ -3,7 +3,7 @@ function executar(){
 
     for (i = 0; i < semana.length; i++) {
         console.log(semana[i]);
-        document.getElementById("resultado").innerHTML = semana[i];
+        document.getElementById("resultado").innerHTML = semana;
     }
     
 
